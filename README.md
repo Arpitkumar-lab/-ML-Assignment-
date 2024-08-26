@@ -4,7 +4,8 @@ Step 1.Import Necessary Libraries: In python import pandas as pd from sklearn.da
 
 - Purpose: Import the pandas library, which is essential for data manipulation and analysis, and load_iris from sklearn.datasets to access the Iris dataset.
 - Details: pandas is used to handle data in DataFrame format, which simplifies various data operations, while load_iris provides a convenient way to load the Iris dataset.
-Step 2. Load the Iris Dataset: python iris = load_iris()
+
+- Step 2. Load the Iris Dataset: python iris = load_iris()
 
 - Purpose: Load the Iris dataset into the variable iris.
 
@@ -20,11 +21,13 @@ Step 4. Display the First Five Rows: python print("First five rows of the datase
 
 - Purpose: Display the first five rows of the DataFrame to get a preview of the dataset.
 - Details: head() is a DataFrame method that returns the first five rows. This helps in quickly understanding the structure and content of the dataset.
-Step 5.Display the Shape of the Dataset: python print("\nShape of the dataset:") print(iris_df.shape)
+
+- Step 5.Display the Shape of the Dataset: python print("\nShape of the dataset:") print(iris_df.shape)
 
 - Purpose: Show the dimensions (number of rows and columns) of the DataFrame.
 - Details: shape is an attribute of the DataFrame that returns a tuple representing the number of rows and columns. This provides a quick overview of the dataset size.
-Step 6.Display Summary Statistics: python print("\nSummary statistics of the dataset:") print(iris_df.describe())
+
+- Step 6.Display Summary Statistics: python print("\nSummary statistics of the dataset:") print(iris_df.describe())
 
 - Purpose: Provide summary statistics for each feature in the DataFrame.
 
